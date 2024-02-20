@@ -1,0 +1,184 @@
+.login__area{
+    margin-bottom: 50px;
+}
+.login__top h3{
+    font-weight: 200;
+    font-size: 2.8rem !important;
+    background-image: linear-gradient(45deg,#3c41d1,#666ad9 39%,#00ffa3 90%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;line-height:1.3
+}
+.login__top p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.login__wrapper {
+    position: relative;
+    padding: 40px 50px 50px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -o-border-radius: 40px;
+    -ms-border-radius: 40px;
+    border-radius: 40px;
+    background-color: #000;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.login__top {
+    margin-bottom: 30px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.login__input-title h4 {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.login__input-title h4 span {
+    color: #3771FE;
+}
+.login__input-title .forgot-password a {
+    font-size: 14px;
+    color: #3771FE;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+.login__input {
+    position: relative;
+    margin-bottom: 20px;
+}
+.login__input-icon {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.login__input input, .login__input textarea {
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    padding: 0 28px;
+    padding-left: 55px;
+    border: 0;
+    outline: 0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 0.01%, rgba(255, 255, 255, 0.03) 100%);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.login__input-password-visible {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.4);
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.login__btn button {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.tp-btn-4 {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    padding: 7px 35px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    border: 2px solid #3771FE;
+}
+.login__signup {
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.login__signup p {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #000;
+    display: inline-block;
+    padding: 0 15px;
+    margin-bottom: 0;
+}
+.login__signup p a{
+    color: rgba(255, 255, 255, 0.6);
+}
+.login__signup p a:hover{
+    color: #3771FE;
+}
+.login__signup::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    height: 1px;
+    width: 100%;
+    z-index: -1;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.login__option-btn {
+    display: inline-block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0 25px;
+    height: 50px;
+    line-height: 48px;
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+    -ms-border-radius: 100px;
+    border-radius: 100px;
+    text-align: center;
+}
+.login__option-btn img {
+    margin-right: 7px;
+}
+.login__option-btn:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+@media (max-width: 575px){
+    .login__wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

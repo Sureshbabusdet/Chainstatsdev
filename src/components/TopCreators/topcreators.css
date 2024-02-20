@@ -1,0 +1,22 @@
+.collection__list-title a{
+    color: #fff;
+}
+.tp-btn-border {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--tp-common-white);
+    padding: 7px 30px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+.tp-btn-border:hover {
+    color: var(--tp-common-black-4);
+    background-color: var(--tp-common-white);
+    border-color: var(--tp-common-white);
+}

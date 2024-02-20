@@ -1,0 +1,266 @@
+/* #gradient-0 stop {
+    stop-color: #7cb5ec;
+}
+
+#gradient-0 stop[offset="0"] {
+    stop-opacity: 0.75;
+}
+
+#gradient-0 stop[offset="1"] {
+    stop-opacity: 0;
+}
+
+#gradient-1 stop {
+    stop-color: #cccccc;
+}
+
+#gradient-1 stop[offset="0"] {
+    stop-opacity: 0;
+}
+
+#gradient-1 stop[offset="1"] {
+    stop-opacity: 0;
+} */
+
+/* Apply the gradients */
+.line-chart .highcharts-plot-background {
+    fill: none;
+}
+/* 
+.line-chart .highcharts-color-0 .highcharts-area {
+    fill-opacity: 0.2 !important;
+    fill: #8BDAB4 !important;
+} */
+
+.line-chart .highcharts-point {
+    fill-opacity: 0;
+    stroke: transparent;
+}
+
+.line-chart .highcharts-graph {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.line-chart .highcharts-minor-grid-line {
+    stroke: transparent;
+}
+
+.line-chart .highcharts-background {
+    fill: #000;
+}
+
+.line-chart .highcharts-grid-line {
+    fill: none;
+    stroke: transparent;
+}
+
+/* .line-chart .highcharts-tooltip>span {
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid silver;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #888;
+    padding: 8px;
+} */
+
+/* .line-chart .highcharts-tooltip>span {
+    padding: 0px;
+    overflow: visible !important;
+    background-color: transparent;
+    background-color: transparent;
+    border: transparent;
+    border-color: transparent;
+    z-index: 9999;
+} */
+
+/* .line-chart .highcharts-series-group {
+    width: 250px !important;
+    display: block
+} */
+
+/* .line-chart .highcharts-tooltip-box {
+    fill: transparent;
+    fill-opacity: 0;
+    stroke-width: 0;
+}
+
+.line-chart .highcharts-tooltip text {
+    fill: transparent;
+    text-shadow: 0 0 3px black;
+} */
+/* 
+.chart-map-custom-tooltip {
+    border-radius: 4px;
+    -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .11);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .11);
+    background-color: #000;
+    height: 155px;
+    width: 200px;
+    position: absolute;
+    border: 1px solid #d5d5d5;
+    z-index: 1
+}
+
+.chart-map-custom-tooltip.graph-tooltip {
+    height: unset;
+    position: unset
+}
+
+.chart-map-custom-tooltip .arrow {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #868686;
+    padding: 0;
+    margin: 0;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    left: 49%;
+    position: relative
+}
+
+.chart-map-custom-tooltip.no-data {
+    height: 45px;
+    width: 120px;
+    text-align: center
+}
+
+.chart-map-custom-tooltip.no-data .date {
+    font-weight: 700 !important;
+    font-size: 12px
+}
+
+.chart-map-custom-tooltip .check-not-added {
+    font-size: 12px;
+    margin-top: 0;
+    font-weight: 400;
+    color: #8d8d8d
+}
+
+.chart-map-custom-tooltip>div {
+    padding: 4px 5px
+}
+
+.chart-map-custom-tooltip p {
+    margin: 5px
+}
+
+.chart-map-custom-tooltip .up {
+    color: #383838;
+    font-size: 15px;
+    font-weight: 700
+}
+
+.chart-map-custom-tooltip .date {
+    color: #868686 !important;
+    font-size: 13px;
+    font-weight: 400 !important;
+    display: inline-block;
+    width: 80%;
+    word-break: break-all
+}
+
+.chart-map-custom-tooltip .col-6 img {
+    position: relative;
+    top: 10px;
+    right: 5px
+}
+
+.chart-map-custom-tooltip .detail-title {
+    color: #8d8d8d;
+    font-weight: 400;
+    display: block;
+    background-color: #DCDCDC;
+    font-size: 12px
+}
+
+.chart-map-custom-tooltip .detail-value {
+    color: #585858;
+    font-weight: 700
+}
+
+.chart-map-tooltip-details {
+    background-color: #DCDCDC;
+} */
+/* 
+.line-chart .status-image {
+    width: 50%;
+    height: 115px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.line-chart .status-image {
+    background: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px
+}
+
+.line-chart .status-header img {
+    margin-right: 16px
+}
+
+.line-chart .down-status-img,
+.line-chart .up-status-img {
+    margin: auto
+}
+
+#myChart {
+    background: white;
+    border-top: green 1px solid;
+
+}
+
+.line-chart div.chart {
+    background-color: green;
+    box-shadow: 0 0 5px 1px green;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: calc(100% + 2px);
+}
+
+
+.line-chart div.chart h2 {
+    font-size: 18px;
+    padding: 0px 10px 5px 10px;
+    margin: 10px 0px 5px 0px;
+} */
+
+.filter-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.filter-buttons button {
+    background: transparent;
+    color: #fff;
+    border: none;
+    padding: 0;
+    opacity: 0.3;
+}
+.filter-buttons button.active {
+    color: var(--main-theme-color);
+    opacity: 1;
+}
+.blink {
+    animation: blink 0.2s linear;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}

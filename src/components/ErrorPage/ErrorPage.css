@@ -1,0 +1,54 @@
+.error-sec {
+    position: relative;
+    padding: 150px 0px 650px;
+    z-index: 3;
+}
+
+.error-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.error-sec h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.error-sec h4 {
+    color: #E0E0E0;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.error-sec h1 {
+    color: #FFC367;
+    text-align: center;
+    font-size: 200px;
+    line-height: .7;
+    font-weight: 700;
+}
+
+.error-sec p {
+    color: #F2F2F2;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.error-sec p span {
+    font-weight: bold;
+}
+
+.error-shapeIn{
+    position: relative;
+    margin-top: -550px;
+    z-index: 4;
+}
