@@ -1,0 +1,91 @@
+
+/*----------------------------------------*/
+/*  12. MARQUE CSS START
+/*----------------------------------------*/
+.marque__area {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    margin-bottom: -1px;
+  }
+  .marque__area-2 {
+    background-color: var(--tp-common-white);
+    border: 0;
+  }
+  .marque__inner {
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+  }
+  .marque__inner::after, .marque__inner::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 382px;
+    height: 100%;
+    background: linear-gradient(90deg, #05092B 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 11;
+  }
+  @media (max-width: 575px) {
+    .marque__inner::after, .marque__inner::before {
+      opacity: 0;
+    }
+  }
+  .marque__inner::before {
+    left: auto;
+    right: 0;
+    background: linear-gradient(-90deg, #05092B 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 11;
+  }
+  .marque__inner-2::after {
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(5, 9, 43, 0) 100%);
+  }
+  .marque__inner-2::before {
+    background: linear-gradient(-90deg, rgb(255, 255, 255) 0%, rgba(5, 9, 43, 0) 100%);
+  }
+  .marque__wrapper {
+    display: block;
+    width: 200%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  .marque__wrapper p {
+    margin-bottom: 0;
+    color: var(--tp-common-white);
+    margin-right: 15px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding-right: 30px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+  }
+  .pt-25{
+    padding-top: 25px;
+  }
+  .marque__wrapper p::after {
+    position: absolute;
+    content: "\f005";
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: var(--tp-common-yellow-2);
+    font-family: var(--tp-ff-fontawesome);
+    font-size: 16px;
+    margin-right: 7px;
+  }
+  .marque__wrapper-2 p {
+    color: var(--tp-theme-dark-2);
+  }

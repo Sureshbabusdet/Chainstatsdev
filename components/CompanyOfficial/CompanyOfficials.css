@@ -1,0 +1,255 @@
+.lineChart2 #gradient-0 stop {
+	stop-color: #00A3FF;
+}
+.lineChart2 #gradient-0 stop[offset="0"] {
+	stop-opacity: 0.75;
+}
+.lineChart2 #gradient-0 stop[offset="1"] {
+	stop-opacity: 0;
+}
+.lineChart2 #gradient-1 stop {
+	stop-color: #cccccc;
+}
+.lineChart2 #gradient-1 stop[offset="0"] {
+	stop-opacity: 0;
+}
+.lineChart2 #gradient-1 stop[offset="1"] {
+	stop-opacity: 0;
+}
+
+/* Apply the gradients */
+.lineChart2 .highcharts-plot-background {
+	fill: url(#gradient-1);
+}
+.lineChart2 .highcharts-area {
+	fill-opacity: 1;
+	fill: url(#gradient-0);
+}
+
+.lineChart2 .highcharts-point{
+  	fill-opacity: 0;
+  	stroke: transparent;
+}
+
+.lineChart2 .highcharts-graph {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.lineChart2 .highcharts-minor-grid-line {
+  stroke: transparent;
+}
+.lineChart2 .highcharts-background{
+  fill: transparent;
+}
+.lineChart2 .highcharts-grid-line {
+  fill: none;
+  stroke: transparent;
+}
+
+.lineChart2 .highcharts-tooltip>span {
+    background: rgba(255,255,255,0.85);
+    border: 1px solid silver;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #888;
+    padding: 8px;
+}
+
+.lineChart2 .highcharts-tooltip > span {
+  padding: 0px;
+  overflow: visible !important;
+  background-color: transparent;
+  background-color: transparent;
+  /* < IE11 */
+  border: transparent;
+  border-color:transparent;
+  z-index: 9999;
+}
+
+.lineChart2 .highcharts-series-group {
+    width: 250px!important;
+    display: block
+}
+
+.lineChart2 .highcharts-tooltip-box {
+	fill: transparent;
+	fill-opacity: 0;
+	stroke-width: 0;
+}
+
+.lineChart2 .highcharts-tooltip text {
+	fill: transparent;
+	text-shadow: 0 0 3px black;
+}
+
+.lineChart2 .chart-map-custom-tooltip {
+    border-radius: 4px;
+    -webkit-box-shadow: 0 5px 8px 0 rgba(0,0,0,.11);
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,.11);
+    background-color: #000;
+    height: 155px;
+    width: 200px;
+    position: absolute;
+    border: 1px solid #d5d5d5;
+    z-index: 1
+}
+
+.lineChart2  .chart-map-custom-tooltip.graph-tooltip {
+    height: unset;
+    position: unset
+}
+
+.lineChart2  .chart-map-custom-tooltip .arrow {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #868686;
+    padding: 0;
+    margin: 0;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    left: 49%;
+    position: relative
+}
+
+.lineChart2 .chart-map-custom-tooltip.no-data {
+    height: 45px;
+    width: 120px;
+    text-align: center
+}
+
+.lineChart2 .chart-map-custom-tooltip.no-data .date {
+    font-weight: 700!important;
+    font-size: 12px
+}
+
+.lineChart2 .chart-map-custom-tooltip .check-not-added {
+    font-size: 12px;
+    margin-top: 0;
+    font-weight: 400;
+    color: #8d8d8d
+}
+
+.lineChart2 .chart-map-custom-tooltip>div {
+    padding: 4px 5px
+}
+
+.lineChart2 .chart-map-custom-tooltip p {
+    margin: 5px
+}
+
+.lineChart2 .chart-map-custom-tooltip .up {
+    color: #383838;
+    font-size: 15px;
+    font-weight: 700
+}
+
+.lineChart2 .chart-map-custom-tooltip .date {
+    color: #868686!important;
+    font-size: 13px;
+    font-weight: 400!important;
+    display: inline-block;
+    width: 80%;
+    word-break: break-all
+}
+
+.lineChart2 .chart-map-custom-tooltip .col-6 img {
+    position: relative;
+    top: 10px;
+    right: 5px
+}
+
+.lineChart2 .chart-map-custom-tooltip .detail-title {
+    color: #8d8d8d;
+    font-weight: 400;
+    display: block;
+    background-color: #DCDCDC;
+    font-size: 12px
+}
+
+.lineChart2 .chart-map-custom-tooltip .detail-value {
+    color: #585858;
+    font-weight: 700
+}
+
+.lineChart2 .chart-map-tooltip-details {
+    background-color: #DCDCDC;
+}
+
+.status-image {
+    width: 50%;
+    height: 115px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.status-image {
+    background: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px
+}
+
+.status-header img {
+    margin-right: 16px
+}
+
+.down-status-img,.up-status-img {
+    margin: auto
+}
+
+.total-reward-bard td{
+    color: #93B2D6;
+    font-size: 28px;
+}
+
+.search-innner-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search-innner-wrapper input{
+    background: rgba(57, 93, 137, 0.50);
+    border-color: rgba(57, 93, 137, 0.50);
+    color: #fff;
+}
+.search-innner-wrapper input::placeholder{
+    color: #fff;
+    opacity: 0.3;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+.search-innner-wrapper input:focus{
+    background: rgba(57, 93, 137, 0.50);
+    border-color: rgba(57, 93, 137, 0.50);
+    color: #fff;
+}
+.search-innner-wrapper button{
+    width: 37px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 37px;
+    background: rgba(57, 93, 137, 0.50);
+    border: none;
+    border-radius: 9px;
+    color: #637FA1;
+}
+.scer-table th{
+    white-space: nowrap;
+}
+.scer-table td{
+    white-space: nowrap;
+}
+@media screen and (max-width:767px) {
+    .search-innner-wrapper{
+        margin-top: 20px;
+    }
+}

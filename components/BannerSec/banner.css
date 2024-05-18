@@ -1,0 +1,227 @@
+.main-bt-area {
+    width: 100%;
+    height: 370px;
+    padding-top: 50px;
+    transition-duration: .5s !important;
+}
+
+.banner-img {
+    height: 90% !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: -1;
+}
+
+.bt-subtitle {
+    font-size: 15px;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    --tw-text-opacity: 1;
+    font-weight: 200;
+    color: #fff;
+}
+
+.slider-title-shape {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -160px;
+}
+
+.banner-clip {
+    background-image: linear-gradient(45deg, #3c41d1, #666ad9 39%, #00ffa3 90%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bt-title {
+    line-height: 1 !important;
+    font-weight: 200;
+    font-size: 4.8rem !important;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1600px) {
+    .main-bt-area {
+        height: 400px;
+    }
+
+    .main-bt-area .banner-img {
+        height: 90% !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
+}
+
+@media (max-width:1440px) {
+    /* .main-bt-area {
+        height: 500px;
+    } */
+
+    .main-bt-area .banner-img {
+        height: 80% !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
+}
+
+@media (max-width:1024px) {
+    .main-bt-area {
+        height: 350px;
+    }
+
+    .main-bt-area .banner-img {
+        height: 90% !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .bt-title {
+        font-size: 4rem !important;
+    }
+
+    .performance-data h3 {
+        font-size: 25px;
+        line-height: 35.141px;
+    }
+
+}
+
+@media screen and (max-width:821px) {
+    .main-bt-area {
+        height: 750px;
+    }
+
+    .main-bt-area .banner-img {
+        height: 100% !important;
+        top: 40% !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main-bt-area {
+        height: 300px;
+    }
+
+    .main-bt-area .banner-img {
+        height: 100% !important;
+        top: 40% !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .main-bt-area {
+        height: 300px;
+        /* margin-top: 50px; */
+    }
+
+    .bt-title {
+        font-size: 3rem !important;
+    }
+
+    .slider-title-shape {
+        margin-top: -50px;
+        margin-left: -211px;
+    }
+
+    .bt-subtitle {
+        font-size: 14px;
+    }
+
+    .main-bt-area .banner-img {
+        height: 100% !important;
+        top: 45% !important;
+        transform: translateY(-50%) !important;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .main-bt-area {
+        height: 300px;
+        /* padding: 0; */
+    }
+
+    .main-bt-area .banner-img {
+        height: 100% !important;
+        top: 45% !important;
+        transform: translateY(-50%) !important;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .main-bt-area {
+        height: 330px;
+    }
+
+    .main-bt-area .banner-img {
+        height: 47% !important;
+        top: 34% !important;
+    }
+}
+
+@media screen and (max-width:394px) {
+    .main-bt-area {
+        height: 330px;
+    }
+
+    .main-bt-area .banner-img {
+        height: 60% !important;
+        top: 34% !important;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .main-bt-area {
+        height: 330px;
+    }
+
+    .main-bt-area .banner-img {
+        height: 100% !important;
+        top: 40% !important;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .main-bt-area {
+        height: 270px;
+        /* padding: 0; */
+    }
+
+    .main-bt-area .banner-img {
+        height: 100% !important;
+        top: 40% !important;
+    }
+}
+
+@media (max-width:321px) {
+    .main-bt-area {
+        height: 350px;
+        /* padding: 0; */
+    }
+
+    .main-bt-area .banner-img {
+        height: 100% !important;
+        top: 40% !important;
+    }
+}
+
+@media (max-width:281px) {
+    .main-bt-area {
+        height: 310px;
+    }
+
+    .bt-title {
+        font-size: 2.5rem !important;
+    }
+
+    .bt-subtitle {
+        font-size: 13px;
+    }
+
+    .main-bt-area .banner-img {
+        height: 100% !important;
+        top: 40% !important;
+    }
+}

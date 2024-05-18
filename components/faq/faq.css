@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.faq__tab-content .accordion-item:not(:first-of-type) {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.faq__tab-content .accordion-item {
+    margin-bottom: 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+.faq__tab-content .accordion-item .accordion-header .accordion-button {
+    background: 0 0;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 17px 70px 20px;
+    border: none;
+    box-shadow: none;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -o-border-radius: 6px 6px 0 0;
+    -ms-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.faq__tab-content .accordion-item .accordion-header .accordion-button::after {
+    position: absolute;
+    content: "\f107";
+    font-family: var(--tp-ff-fontawesome);
+    background-image: none;
+    top: 42%;
+    left: 30px;
+    -webkit-transform: translateY(-50%) rotate(180deg);
+    -moz-transform: translateY(-50%) rotate(180deg);
+    -ms-transform: translateY(-50%) rotate(180deg);
+    -o-transform: translateY(-50%) rotate(180deg);
+    transform: translateY(-50%) rotate(180deg);
+    color: rgba(255, 255, 255, 0.6);
+    width: auto;
+    height: auto;
+    font-weight: 500;
+}
+
+.faq__tab-content .accordion-item .accordion-header .accordion-button.collapsed {
+    color: rgba(255, 255, 255, 0.6);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.faq__tab-content .accordion-item .accordion-header .accordion-button.collapsed::after {
+    -webkit-transform: translateY(-50%) rotate(0);
+    -moz-transform: translateY(-50%) rotate(0);
+    -ms-transform: translateY(-50%) rotate(0);
+    -o-transform: translateY(-50%) rotate(0);
+    transform: translateY(-50%) rotate(0);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.faq__tab-content .accordion-item .accordion-header .accordion-button:focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+.faq__tab-content .accordion-item .accordion-header .accordion-button:hover,
+.faq__tab-content .accordion-item .accordion-header .accordion-button:hover::after {
+    color: var(--tp-theme-1);
+}
+
+.faq__tab-content .accordion-item .accordion-body {
+    background: 0 0;
+    padding: 0 70px 45px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    font-weight: 200;
+}
+
+.faq__tab-content .accordion-item .accordion-collapse {
+    border: none;
+    box-shadow: 0 30px 50px 0 rgba(0, 0, 41, 0.1);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .faq__tab-content .accordion-item .accordion-header .accordion-button {
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 18px;
+    }
+
+    .faq__tab-content .accordion-item .accordion-header .accordion-button::after {
+        left: 20px;
+    }
+
+    .faq__tab-content .accordion-item .accordion-body {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .faq__tab-content {
+        margin-top: 40px;
+    }
+
+    .faq__tab-content .accordion-item .accordion-header .accordion-button {
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 18px;
+    }
+
+    .faq__tab-content .accordion-item .accordion-body {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 575px) {
+    .faq__tab-content {
+        margin-top: 40px;
+    }
+
+    .faq__tab-content .accordion-item .accordion-header .accordion-button {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .faq__tab-content .accordion-item .accordion-header .accordion-button::after {
+        left: 15px;
+    }
+
+    .faq__tab-content .accordion-item .accordion-body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
